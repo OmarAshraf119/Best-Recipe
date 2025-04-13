@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+    font-style: oblique;
+    color: #333;
+    background-image: linear-gradient(to right, rgba(154, 206, 255, 0.2), rgba(252, 124, 70, 0.5));
+    
+  }
+  
+  .mat-typography {
+    font-family: 'Work Sans', sans-serif;
+  }

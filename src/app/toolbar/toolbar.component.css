@@ -1,0 +1,24 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Make sure it's above other content */
+    box-shadow: 0 0 6px rgba(54, 22, 4, 1);
+    background-color: #b1988e;
+    
+  }
+  .custom-icon-button {
+    width: auto;
+    height: auto;
+  }
+  .custom-icon {
+    width: 48px; /* Whatever size you want */
+    height: 48px;
+  }
+  .home-btn{
+    font-size: 40px;
+  }

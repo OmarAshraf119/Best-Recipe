@@ -1,0 +1,53 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  text-align: center;
+  padding: 2rem;
+  background: #fefefe;
+  background-image: linear-gradient(rgba(14, 12, 12, 0), rgba(250, 184, 31, 0.6));
+  border-radius: 4%;
+  box-shadow: 0 0 4px rgba(54, 22, 4, 1);
+  margin: 1rem;
+  margin-top: 90px; 
+  margin-inline: 3rem;
+}
+
+.hero h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.hero p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.25rem;
+  max-width: 600px;
+  color: #666;
+}
+
+.hero-button {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ff6b6b;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #ff3b3b;
+  cursor: pointer;
+}
+.recipes> h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  color:rgb(54, 22, 4);
+  text-align: center;
+}

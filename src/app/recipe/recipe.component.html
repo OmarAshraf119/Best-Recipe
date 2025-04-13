@@ -1,0 +1,22 @@
+<div class="body">
+    <h1>{{meal?.strMeal}}</h1>
+    <img [src]="meal?.strMealThumb">
+    <div class="ingredients" >
+            <div class="ingredient" *ngFor="let ingredient of ingredients">
+                <img [src]="ingredient.url">
+                <p>{{ingredient.measure}} {{ingredient.ingredient}}</p>
+            </div>
+    </div>
+    <div class="instructions">
+        <h3>Instructions:</h3>    
+        <p>{{meal?.strInstructions}}</p>
+    </div>
+    <div class="video-container">
+        <youtube-player 
+        [videoId]="meal?.strYoutube.split('=')[1]" 
+        [width]="640" 
+        [height]="360"
+        [playerVars]="{autoplay: 0, rel: 0,modestbranding: 1 }">
+        </youtube-player>
+    </div>
+</div>

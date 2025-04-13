@@ -1,0 +1,61 @@
+.ingredient{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.ingredient p{
+    font-size: large;
+    flex-direction: row;
+    margin-top: 5em;
+    margin-right: 5px;
+}
+.ingredient img{
+    transform: scale(0.5);
+}
+.ingredients{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.body h1{
+    font-size: 40px;
+    margin: 20px;
+}
+.body >img{
+    border-radius: 5%;
+    box-shadow: 0 0 6px rgba(54, 22, 4, 1);
+    height:500px;
+    width: auto;
+}
+.body{
+    display: flex;
+    margin-top: 64px; /* Push content below the toolbar */
+    padding: 16px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(154, 206, 255, 0.2), rgba(252, 124, 70, 0.5));
+}
+
+.instructions{
+    padding: 4em;
+}
+.instructions h3{
+    font-size: 25px;
+}
+.instructions p{
+    font-size: 18px;
+    text-indent: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 1000px;
+}
+p, h1, h3 {
+    color:rgb(54, 22, 4);
+    font-style: oblique;
+    font-family: cursive;
+}
+youtube-player {
+    width: 100%;
+    height: 360px; /* or set a fixed height if needed */
+  }
